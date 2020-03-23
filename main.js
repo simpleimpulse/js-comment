@@ -1,3 +1,4 @@
+// The Comment class with a basic constructor
 class Comment {
 
   constructor ( body ) {
@@ -13,7 +14,7 @@ class Comment {
 
 }
 
-// This would usually come from an API, but keeping it simple in this case.
+// User data to go with the comment. This would usually come from an API, but keeping it simple in this case.
 var current_user = {
 		name: 'Michael',
 		is_author: true,
